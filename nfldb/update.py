@@ -522,6 +522,7 @@ def run(player_interval=43200, interval=None, update_schedules=False,
                 update_players(cursor, player_interval)
 
             # Now update games.
+            log('HEYOO')
             update_games(db, batch_size=batch_size)
 
         log('Closing database connection... ', end='')
