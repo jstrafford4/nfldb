@@ -1,0 +1,48 @@
+insert into feature_ref (name, primary_stat, stat_category, feature_type)
+values ('median_rush_yds', 'rushing_yds', 'rushing', 'Median'),
+('median_rush_tds', 'rushing_tds', 'rushing', 'Median'),
+('median_rush_att', 'rushing_att', 'rushing', 'Median'),
+
+('avg_kickret_tds', 'kickret_tds', 'spl_rushing', 'Average'),
+('avg_kickret_returns', 'kickret_ret', 'spl_rushing', 'Average'),
+('avg_puntret_tds', 'puntret_tds', 'spl_rushing', 'Average'),
+('avg_puntret_returns', 'puntret_tot', 'spl_rushing', 'Average'),
+
+('avg_fumbles', 'fumbles_tot', 'rushing', 'Average'),
+('max_fumbles', 'fumbles_tot', 'rushing', 'Max'),
+
+
+('avg_rec_yds', 'receiving_yds', 'receiving', 'Average'),
+('min_rec_yds', 'receiving_yds', 'receiving', 'Min'),
+('max_rec_yds', 'receiving_yds', 'receiving', 'Max'),
+('median_rec_yds', 'receiving_yds', 'receiving', 'Median'),
+('avg_receptions', 'receiving_rec', 'receiving', 'Average'),
+('min_receptions', 'receiving_rec', 'receiving', 'Min'),
+('max_receptions', 'receiving_rec', 'receiving', 'Max'),
+('median_receptions', 'receiving_rec', 'receiving', 'Median'),
+('avg_targets', 'receiving_tar', 'receiving', 'Average'),
+('min_targets', 'receiving_tar', 'receiving', 'Min'),
+('max_targets', 'receiving_tar', 'receiving', 'Max'),
+('median_targets', 'receiving_tar', 'receiving', 'Median'),
+('avg_rec_tds', 'receiving_tds', 'receiving', 'Average'),
+('min_rec_tds', 'receiving_tds', 'receiving', 'Min'),
+('max_rec_tds', 'receiving_tds', 'receiving', 'Max'),
+('median_rec_tds', 'receiving_tds', 'receiving', 'Median'),
+
+
+('avg_pass_yds', 'passing_yds', 'passing', 'Average'),
+('min_pass_yds', 'passing_yds', 'passing', 'Min'),
+('max_pass_yds', 'passing_yds', 'passing', 'Max'),
+('median_pass_yds', 'passing_yds', 'passing', 'Median'),
+('avg_pass_tds', 'passing_tds', 'passing', 'Average'),
+('min_pass_tds', 'passing_tds', 'passing', 'Min'),
+('max_pass_tds', 'passing_tds', 'passing', 'Max'),
+('median_pass_tds', 'passing_tds', 'passing', 'Median'),
+('avg_pass_sacks', 'passing_sk', 'passing', 'Average'),
+('min_pass_sacks', 'passing_sk', 'passing', 'Min'),
+('max_pass_sacks', 'passing_sk', 'passing', 'Max'),
+('median_pass_sacks', 'passing_sk', 'passing', 'Median'),
+('avg_pass_ints', 'passing_int', 'passing', 'Average'),
+('min_pass_ints', 'passing_int', 'passing', 'Min'),
+('max_pass_ints', 'passing_int', 'passing', 'Max'),
+('median_pass_ints', 'passing_int', 'passing', 'Median');

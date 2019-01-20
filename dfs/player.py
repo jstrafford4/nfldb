@@ -10,6 +10,7 @@ class Player(object):
         self.draftkings_salary = 0
         self.game = None
         self.team = ''
+        self.opponent = ''
         self.fd_projected = 0.0
         self.fd_points = 0.0
         self.fd_variance = 0.0
@@ -40,6 +41,7 @@ def LoadPlayers(week, year):
         p.draftkings_salary = rec.draftkings_salary
         p.game = None
         p.team = rec.team
+        p.opponent = rec.opponent
         p.fd_projected = -1
         p.fd_variance = rec.fd_variance
         p.fd_points = rec.fanduel_points

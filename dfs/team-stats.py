@@ -53,7 +53,6 @@ def LoadAllTeams(week, year, num_weeks=5):
     cur1.close()
     db.close()
 
-    pprint(allTeams['OAK'].position_stats_against)
 
     return allTeams
 
