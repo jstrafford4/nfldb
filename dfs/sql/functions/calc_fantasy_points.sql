@@ -1,3 +1,6 @@
+-- ** NEEDS UPDATED ** These sums are pointless after writing update_game_stats.sql
+-- I'll need the stats per game anyways, to compute features over the last n weeks.
+
 -- FUNCTION: public.calc_fantasy_points(integer, integer, season_phase)
 
 -- DROP FUNCTION public.calc_fantasy_points(integer, integer, season_phase);
